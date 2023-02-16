@@ -32,6 +32,7 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -58,6 +59,10 @@ h2 {
 /* Colors */
 
 /* QUESTION 1 */
+
+.red {
+  background-color: red;
+}
 
 .orange {
   background-color: orange;
@@ -91,18 +96,25 @@ h2 {
   background-color: #000;
 }
 
+#white {
+  background-color: white;
+}
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  background-color: #B5002D;
+  height: 16.7%;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
+  height: 16.7%
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  height: 33.3%
 }
 
 /* END QUESTION 2 */
@@ -129,11 +141,18 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  display: inline-block;
+  max-width: 40%;
+  max-height: 55%;
 }
 
 .mexico-red {
   background-color: #ce1126;
+}
+
+h2:hover {
+  font-size: 110%;
+  background-color: yellow;
 }
 
 /* QUESTION 6 */
@@ -144,6 +163,8 @@ h2 {
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
+  margin: 10px;
+  padding: 60px;
 }
 
 /* For margin practice */
